@@ -1,0 +1,16 @@
+This project implement a chat room base on the TCP protocols and threads
+
+/login user_ID user_password IP_address IP_port: login into the server
+/createsession session_id: create a session with a unique id and getin to the session
+/joinsession session_id: join the seesion with the id
+/leavesession: leave the current session
+/list: see all the session and online people
+/logout: logout the user
+/quit: terminate the application
+/invite user_id: invite the user with user id to the current session
+/accept session_id: accept the invite and join in to the session with session id
+/decline session_id: decline the invite
+/list_invite: list all your invitation
+/clear_invite: clear all your invitation
+/private user_id: send private message to someone(only the user with user_id can see your private message)
+<text> message send to session can be seen all the people in that session
